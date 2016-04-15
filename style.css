@@ -36,6 +36,10 @@ div {
 	width: 48%;
 }
 
+#discogs img {
+	width: 100%;
+}
+
 #scloud {
 
 	right:-118px;
