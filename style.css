@@ -37,7 +37,7 @@ div {
 }
 
 #discogs img {
-	width: 20%;
+	width: 80%;
 }
 
 #scloud {
@@ -47,6 +47,7 @@ div {
 }
 
 #ytube {
+	width: 150px;
 	right:110px;
 	top: -8px;
 }
