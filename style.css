@@ -47,6 +47,7 @@ div {
 }
 
 #ytube {
+	clip:rect(30px,120px,90px,40px);
 	right:110px;
 	top: -8px;
 }
