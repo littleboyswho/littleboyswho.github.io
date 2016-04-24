@@ -50,9 +50,22 @@
 			<figcaption>Powered by Dolby®</figcaption>
 		</figure>
 	</div>
+	<div id="playerBox">
+		<audio id="track1" controls>
+			<source src="MakeMeMine.mp3" type="audio/mpeg" />
+		</audio>
+		Your broweser does not support audio playback.
+	</div>
+	<script src="https://s3-us-west-1.amazonaws.com/dolbydeveloper/1.1.0/js/dolby.min.js"></script>
 	
-	
-	
+	<script>
+		var audio = document.getElementById("track1");
+		if( Dolby.checkDDPlus() === true ){
+		    // Dolby Digital Plus supported
+		    audio.src = "MakeMeMine.mp4";
+		}
+		audio.play();
+	</script>
 </body>
 
 </html>
